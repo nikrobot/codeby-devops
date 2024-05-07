@@ -1,0 +1,27 @@
+Script started on 2024-05-07 10:44:39+03:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="179" LINES="44"]
+[?2004h]0;nik@nikkin: ~/downloads[01;32mnik@nikkin[00m:[01;34m~/downloads[00m$ exitkill 4187[4Ptop &ps -u[K[K[K[K[Ksystemctl enabel[K[Kle nginx.seerviv[K[K[K[K[Krvice
+[?2004lSynchronizing state of nginx.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable nginx
+[?2004h]0;nik@nikkin: ~/downloads[01;32mnik@nikkin[00m:[01;34m~/downloads[00m$ sudo service nginx status
+[?2004lsudo: unable to resolve host nikkin: Неизвестное имя или служба
+[sudo] пароль для nik: 
+Попробуйте ещё раз.
+[sudo] пароль для nik: 
+[?1h=[0;1;32m●[0m nginx.service - nginx[m
+     Loaded: loaded (]8;;file://nikkin/etc/systemd/system/nginx.service/etc/systemd/system/nginx.service]8;;; [0;1;32menabled[0m; preset: [0;1;32menabled[0m)[m
+     Active: [0;1;32mactive (running)[0m since Tue 2024-05-07 10:12:43 MSK; 33min ago[m
+   Main PID: 4912 (nginx)[m
+      Tasks: 3 (limit: 4587)[m
+     Memory: 2.2M[m
+        CPU: 26ms[m
+     CGroup: /system.slice/nginx.service[m
+             ├─[0;38;5;245m4912 "nginx: master process /usr/sbin/nginx -g daemon on; master_process on;"[0m[m
+             ├─[0;38;5;245m4914 "nginx: worker process"[0m[m
+             └─[0;38;5;245m4915 "nginx: worker process"[0m[m
+[m
+мая 07 10:12:43 nikkin systemd[1]: Starting nginx.service - A high performance web server and a reverse proxy server...[m
+мая 07 10:12:43 nikkin systemd[1]: Started nginx.service - A high performance web server and a reverse proxy server.[m
+[K[?1l>[?2004h]0;nik@nikkin: ~/downloads[01;32mnik@nikkin[00m:[01;34m~/downloads[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-07 10:47:51+03:00 [COMMAND_EXIT_CODE="0"]
